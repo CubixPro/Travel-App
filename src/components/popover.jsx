@@ -42,7 +42,7 @@ export default function SimplePopover(props) {
           horizontal: "center",
         }}
       >
-       <Flight flight={flight} />
+       <Flight flight={props.flight} />
       </Popover>
     </div>
   );
