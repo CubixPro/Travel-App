@@ -33,7 +33,7 @@ class Deals extends Component {
         return ( 
             <div>
             <div style={{margin:"10px"}} className="row">
-                { state.deals.map((deal) =>  <Deal deal={deal} /> )}
+                { this.state.deals.map((deal) =>  <Deal deal={deal} /> )}
             </div>
             <Form cities={this.state.cities} />
             </div>
