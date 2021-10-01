@@ -16,7 +16,7 @@ class Counters extends Component {
          .then(
              (response) =>{
                 this.setState({
-                    data: response.dcity
+                    data: response.acity
                 });
              },
              (error) => {
